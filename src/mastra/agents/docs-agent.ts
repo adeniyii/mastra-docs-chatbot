@@ -5,7 +5,7 @@ import { docsMcp } from '../mcp-config';
 const tools = await docsMcp.getTools();
 
 export const docsAgent = new Agent({
-  name: 'docs-agent',
+  name: 'docsAgent',
   instructions:
     // Persistence reminder - ensures the model keeps going through multi-step process
     'You are a helpful assistant specialized in Mastra documentation and usage. ' +
