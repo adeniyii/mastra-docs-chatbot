@@ -1,4 +1,4 @@
-import { getMastra } from "@/mastra";
+import { getMastra } from "@/src/mastra";
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

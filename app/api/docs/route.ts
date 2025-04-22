@@ -1,5 +1,5 @@
-import { getMastra } from "@/mastra";
-import { docsMcp } from "@/mastra/mcp-config";
+import { getMastra } from "@/src/mastra";
+import { docsMcp } from "@/src/mastra/mcp-config";
 
 // Allow streaming responses up to 60 seconds for complex tool usage and reasoning
 export const maxDuration = 60;
