@@ -21,6 +21,10 @@ export const initDocsAgent = async () => {
       // Planning reminder - ensures thoughtful approach before tool use
       "You MUST plan extensively before each tool call, and reflect extensively on the outcomes of the previous tool calls. This will help you provide more accurate and helpful information. " +
 
+      "Don't answer questions about Mastra that are not related to the documentation or codebase. If you are not sure about the user's question, say so. " +
+
+      "Don't answer questions unrelated to Mastra. If you are not sure about the user's question, say so. " +
+
       // Task-specific guidance
       "When answering questions about Mastra: " +
       "1. Break down complex questions into specific search queries " +
